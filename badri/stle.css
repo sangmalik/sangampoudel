@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(20, 26, 43, 0.938);
+    overflow-x: hidden;
+}
+
+nav{
+    background: rgba(36, 52, 83, 0.795);
+    height: 80px;
+    width: 100%;    
+   
+}
+
+img.logo{
+    height: 80px;
+    width: auto;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 8px;
+}
+
+nav a.home, nav a:hover{
+    background-color:rgb(2, 78, 230);
+    transition: .5s;
+}
+
+
+  #slider{
+    width: 50%;
+    height: auto;
+    margin: 30px auto;
+    overflow: hidden;
+    border-radius: 8px;
+    
+    
+}
+
+ #images {
+     position: relative;
+   width: 100%;
+   display: inline-flex;
+   animation: animate 20s none infinite;
+  
+}
+@keyframes animate{
+    0%{
+        left: 0;
+    }
+    15%{
+        left: 0;
+    }
+    20%{
+        left: -100%;
+    }
+   35%{
+        left: -100%;
+    }
+    40%{
+        left: -200%;
+    }
+    55%{
+        left: -200%;
+    }
+    60%{
+        left: -300%;
+    }
+    75%{
+        left: -300%;
+    }
+    80%{
+        left: -400%;
+    }
+    95%{
+        left:-400%
+    }
+    100%{
+        left:-500%
+    }
+   
+
+}
+
+#images  img{
+    width: 100%;
+}
+
+h1{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 30px;
+    color: floralwhite;
+    background-color: grey;
+    margin-left:20% ;
+    margin-right: 20%;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.aboutme{
+    text-align: center;
+    padding: 20px;
+    color: floralwhite;
+}
+
+#content {
+    margin: 20px;
+    background-color: rgba(22, 27, 44, 0.651);
+    color: lavender;
+    border-radius: 20px;
+}
+span{
+    font-weight: bold;
+    color: red;
+    font-size: 20;
+}
+#content #tiktok , #shairy ,#graphics{
+    margin: 10px;
+    background: #fff;
+    color: black;
+    border-radius: 20px;
+}
+#content  .title{
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+}
+#content video{
+    margin-left:5% ;
+    border-radius: 5px;
+}
+#content img{
+    margin-left: 5%;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: rgb(29, 28, 28);
+    border-radius: 5px;
+    
+}
+footer .social{
+    width: 100%;
+    display: inline-block;
+}
+
+
+footer .social img{
+    margin-left: 15%;
+    
+}
+footer .social img:hover{
+    background: none;
+}
+
+
+footer .user , .email{
+width: 80%;
+height: 40px;
+background: #fff;
+display: flex;
+align-items: center;
+border-radius: 20px;
+padding: 0 15px;
+margin: 18px;
+box-sizing: border-box;
+margin-left: 10%;
+
+}
+
+input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 0;
+
+}
+textarea ,button{
+    width: 80%;
+    outline: none;
+    border: 0;
+    border-radius: 20px;
+    margin: 14px;
+    margin-left: 10%;
+
+}
+textarea {
+    background: #fff;
+    padding: 12px 15px;
+    margin-bottom: 50px;
+}
+button{
+    padding: 7px 15px;
+    background:rgba(36, 52, 83, 0.795);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+footer ul h1{
+    margin: 0;
+    background: none;
+    font-size: 20px;
+}
+.logo{
+    border: 4px solid white;
+    border-radius: 150px;
+}
