@@ -254,6 +254,9 @@ font-size: 20px;
         .text-big{
             text-align: center;
         }
+        .firstHalf .text-big{
+        font-size: 20px;
+        }
         .buttons{
             text-align: center;
         }
