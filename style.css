@@ -100,11 +100,12 @@ font-size: 30px;
 }
 
 .firstHalf .text-big {
+    color: green;
 font-size: 30px;
 width: 0ch;
 overflow: hidden;
 white-space: nowrap;
-animation: text 3s steps(15) infinite;
+animation: text 4s steps(15) infinite;
 }
 @keyframes text{
     0%{
