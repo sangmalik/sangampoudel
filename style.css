@@ -250,6 +250,9 @@ font-size: 20px;
         .text-small{
             text-align: center;
         }
+        .firstHalf .text-big{
+        font-size: 25px;
+        }
         .text-big{
             text-align: center;
         }
