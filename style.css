@@ -111,7 +111,7 @@ animation: text 3s steps(15) infinite alternate;
         width: 0ch;
     }
     50%{
-        width: 29ch;
+        width: 15ch;
     }
 }
 .text-small{
