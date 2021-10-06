@@ -98,6 +98,22 @@ height: 75%;
 .text-big{
 font-size: 30px;
 }
+
+.firstHalf .text-big {
+font-size: 30px;
+width: 0ch;
+overflow: hidden;
+white-space: nowrap;
+animation: text 6s steps(29) infinite alternate;
+}
+@keyframes text{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 29ch;
+    }
+}
 .text-small{
     font-size: 18px;
 }
